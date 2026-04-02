@@ -37,7 +37,7 @@ pip install pandas nltk scikit-learn seaborn matplotlib wordcloud
 
 The notebook has the following structured workflow:
 
-1. Data Observation
+### 1. Data Observation
 
 Initial exploration of the dataset using pandas to understand the distribution of labels and general data structure.
 Text Preprocessing
@@ -48,10 +48,10 @@ Text Preprocessing
 * Stopword Removal: Filtering out common words (e.g., "the", "is", "and") that do not add significant meaning.
 * Lemmatization: Reducing words to their base or root form using the NLTK WordNetLemmatizer.
 
-2. Exploratory Data Analysis (EDA)
+### 2. Exploratory Data Analysis (EDA)
 
 Visualizing the data using Seaborn and generating WordClouds to identify frequent terms in different speech categories.
 
-3. Feature Extraction
+### 3. Feature Extraction
 
 Implementation of TfidfVectorizer to convert text data into numerical format (TF-IDF features) for model training.
